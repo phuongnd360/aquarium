@@ -1,0 +1,140 @@
+/*!
+ * The important stuffs. The ones that you should copy-paste and use.
+ */
+
+.paginate {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.paginate ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.paginate li {
+    display: inline;
+}
+
+.paginate a {
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px;
+    margin: 1px 2px;
+    padding: 5px 10px;
+    display: inline-block;
+    border-top: 1px solid #fff;
+    text-decoration: none;
+    color: #717171;
+    font-size: smaller;
+    font-family: "Helvetica Neueu", Helvetica, Arial, sans-serif;
+    text-shadow: white 0 1px 0;
+    background-color: #f5f5f5;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#eaeaea));
+    background-image: -webkit-linear-gradient(top, #f9f9f9, #eaeaea);
+    background-image: -moz-linear-gradient(top, #f9f9f9, #eaeaea);
+    background-image: -ms-linear-gradient(top, #f9f9f9, #eaeaea);
+    background-image: -o-linear-gradient(top, #f9f9f9, #eaeaea);
+    background-image: linear-gradient(top, #f9f9f9, #eaeaea);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorStr='#f9f9f9', EndColorStr='#eaeaea');
+}
+
+.paginate a:first-child,
+.paginate a.first {
+    margin-left: 0;
+}
+
+.paginate a:last-child,
+.paginate a.last {
+    margin-right: 0;
+}
+
+.paginate a:hover,
+.paginate a:focus {
+    border-color: #fff;
+    background-color: #fdfdfd;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#fafafa));
+    background-image: -webkit-linear-gradient(top, #fefefe, #fafafa);
+    background-image: -moz-linear-gradient(top, #fefefe, #fafafa);
+    background-image: -ms-linear-gradient(top, #fefefe, #fafafa);
+    background-image: -o-linear-gradient(top, #fefefe, #fafafa);
+    background-image: linear-gradient(top, #fefefe, #fafafa);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorStr='#fefefe', EndColorStr='#fafafa');
+}
+
+.paginate a.more {
+    box-shadow: 0 0 0 0 transparent;
+    border: 0 none;
+    background: transparent;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.paginate a.active {
+    box-shadow: #337ab7 0 0 0 0 inset;
+    border-color: #337ab7;
+    color: #f2f2f2;
+    text-shadow: black 0 1px 0;
+    background-color: #337ab7;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#337ab7));
+    background-image: -webkit-linear-gradient(top, #337ab7, #337ab7);
+    background-image: -moz-linear-gradient(top, #337ab7, #337ab7);
+    background-image: -ms-linear-gradient(top, #337ab7, #337ab7);
+    background-image: -o-linear-gradient(top, #337ab7, #337ab7);
+    background-image: linear-gradient(top, #337ab7, #337ab7);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorStr='#337ab7', EndColorStr='#337ab7');
+}
+
+.paginate-dark a:hover,
+.paginate-dark a:focus {
+    border-color: #61788a;
+    background-color: #4d6374;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#566f82), to(#3e505e));
+    background-image: -webkit-linear-gradient(top, #566f82, #3e505e);
+    background-image: -moz-linear-gradient(top, #566f82, #3e505e);
+    background-image: -ms-linear-gradient(top, #566f82, #3e505e);
+    background-image: -o-linear-gradient(top, #566f82, #3e505e);
+    background-image: linear-gradient(top, #566f82, #3e505e);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorStr='#566f82', EndColorStr='#3e505e');
+}
+
+.paginate-dark a.active {
+    box-shadow: rgba(0, 0, 0, 0.75) 0 0 0 0 inset;
+    border-color: #2d3035;
+    background-color: #303338;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#303338), to(#2d3034));
+    background-image: -webkit-linear-gradient(top, #303338, #2d3034);
+    background-image: -moz-linear-gradient(top, #303338, #2d3034);
+    background-image: -ms-linear-gradient(top, #303338, #2d3034);
+    background-image: -o-linear-gradient(top, #303338, #2d3034);
+    background-image: linear-gradient(top, #303338, #2d3034);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorStr='#303338', EndColorStr='#2d3034');
+}
+
+li.disabled span {
+    border-radius: 3px;
+    box-shadow:
+    rgba(0, 0, 0, 0.2) 0 0 0 1px;
+    margin: 1px 2px;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 5px 10px;
+    display: inline-block;
+    border-top: 1px solid #fff;
+    border-top-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: #717171;
+    font-size: smaller;
+    font-family: "Helvetica Neueu", Helvetica, Arial, sans-serif;
+    text-shadow:
+    white 0 1px 0;
+    background-color: #f5f5f5;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#eaeaea));
+    background-image: -webkit-linear-gradient(top, #f9f9f9, #eaeaea);
+    background-image: -moz-linear-gradient(top, #f9f9f9, #eaeaea);
+    background-image: -ms-linear-gradient(top, #f9f9f9, #eaeaea);
+    background-image: -o-linear-gradient(top, #f9f9f9, #eaeaea);
+    background-image: linear-gradient(top, #f9f9f9, #eaeaea);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorStr='#f9f9f9', EndColorStr='#eaeaea');
+}
